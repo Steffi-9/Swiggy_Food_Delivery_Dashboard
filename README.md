@@ -103,23 +103,30 @@ Build the below view showing the average minutes breakdown by weekday.
 1. **Select Metric**:
    
      CASE [Parameters].[Select Metric]
+   
      WHEN "SALES REVENUE" THEN SUM([Amount Paid])
+   
      WHEN "ORDER COUNT" THEN COUNTD([Order Id])
+   
      WHEN "AVG ORDER $" THEN AVG([Amount Paid])
+   
      WHEN "ARPU" THEN [ARPU]
+   
      END
-2. **-Avg min**
+3. **-Avg min**
    
     if AVG([Delivery Time mins])< 15.5 then AVG([Delivery Time mins])
+   
     end
-3. **+Avg min**
+5. **+Avg min**
    
     if AVG([Delivery Time mins])> 15.5 then AVG([Delivery Time mins])
+   
     end
-4. **ARPU**
+7. **ARPU**
    
    SUM([Amount Paid])/COUNTD([Delivered To])
-5. **Delivery Time mins**
+8. **Delivery Time mins**
     
     DATEDIFF('minute',[Ordered At],[Delivered At] )
  
