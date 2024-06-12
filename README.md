@@ -99,4 +99,26 @@ Build the below view showing the average minutes breakdown by weekday.
 ![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/204aa4fb-e3db-4a73-987d-8c4509166b08)
 
 
+## Various Calculated field used for findings are:-
+1. **Select Metric**:
+     CASE [Parameters].[Select Metric]
+     WHEN "SALES REVENUE" THEN SUM([Amount Paid])
+     WHEN "ORDER COUNT" THEN COUNTD([Order Id])
+     WHEN "AVG ORDER $" THEN AVG([Amount Paid])
+     WHEN "ARPU" THEN [ARPU]
+     END
+2. **-Avg min**
+    if AVG([Delivery Time mins])< 15.5 then AVG([Delivery Time mins])
+    end
+3. **+Avg min**
+    if AVG([Delivery Time mins])> 15.5 then AVG([Delivery Time mins])
+    end
+4. **ARPU**
+   SUM([Amount Paid])/COUNTD([Delivered To])
+5. **Delivery Time mins**
+    DATEDIFF('minute',[Ordered At],[Delivered At] )
+ 
+
+
+
 
