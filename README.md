@@ -74,3 +74,29 @@ Build the below view showing the average minutes breakdown by weekday.
 ![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/4785ca7f-5dc4-4e44-a90d-e4e81f9d70d8)
 
 
+## Dashboard Requirements
+- **Dashboard Name**: Swiggy Food Delivery
+- **Dashboard Title**: Swiggy Delivery Summary Insights
+- **Dashboard Description**: No 1 Food Delivery App
+- **Dashboard Size**: Should be set to whatever suits your case
+
+## Filters to be present in the dashboard
+1. **Ordered Date**:
+   - Select Year and Select Month.
+   - Should be a single value dropdown.
+   - Should affect all the views present in the dashboard.
+
+2. **Pickup Date / Delivery**:
+   - This single value dropdown filter should affect only views 6 and 7.
+
+## Parameters
+- The parameter should be present near view 5 as seen in the final expected dashboard.
+
+## Dashboard Containers
+- Use containers as per requirement and model it by once reviewing the expected final dashboard.
+
+
+![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/204aa4fb-e3db-4a73-987d-8c4509166b08)
+
+
+
