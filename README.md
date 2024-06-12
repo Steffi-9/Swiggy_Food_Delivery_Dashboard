@@ -27,15 +27,24 @@ Build a scorecard showing the Average Order $.
 - **Format**: As per your choice.
 - **Number should match**.
 
+![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/09b46ca4-8620-4a13-a02e-18318def2754)
+
+
 ## View 3: Total Orders
 Build a scorecard showing the Total Orders.
 - **Format**: As per your choice.
 - **Number should match**.
 
+![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/a7595880-15d4-4732-be69-b6bd6391d9ea)
+
+
 ## View 4: ARPU (Average Revenue Per User)
 Build a scorecard showing the ARPU.
 - **Format**: As per your choice.
 - **Number should match**.
+
+![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/c709eaff-14a0-417e-b486-6c501242ee3b)
+
 
 ## View 5: Area Chart showing Daily Trending Metrics for the above 4 views
 Build an Area chart showing the Daily trends and Metrics from the below metrics (Use Parameters).
