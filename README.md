@@ -18,6 +18,7 @@ Workbook should be published to Tableau Public if possible.
 Build a scorecard showing the Total Sales in $ using the Amount Paid field.
 - **Format**: As per your choice.
 - **Number should match**.
+
   ![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/568e3111-9921-4c55-b903-f4b557c3e8e8)
 
 
