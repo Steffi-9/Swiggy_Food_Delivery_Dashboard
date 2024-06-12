@@ -13,3 +13,43 @@ The Workbook should have a Story consisting of several Story points based on req
 Each worksheet/view/chart should meet the business requirement.
 All worksheets should be hidden.
 Workbook should be published to Tableau Public if possible.
+
+## View 1: Sales Revenue
+Build a scorecard showing the Total Sales in $ using the Amount Paid field.
+- **Format**: As per your choice.
+- **Number should match**.
+
+## View 2: Average Order $
+Build a scorecard showing the Average Order $.
+- **Format**: As per your choice.
+- **Number should match**.
+
+## View 3: Total Orders
+Build a scorecard showing the Total Orders.
+- **Format**: As per your choice.
+- **Number should match**.
+
+## View 4: ARPU (Average Revenue Per User)
+Build a scorecard showing the ARPU.
+- **Format**: As per your choice.
+- **Number should match**.
+
+## View 5: Area Chart showing Daily Trending Metrics for the above 4 views
+Build an Area chart showing the Daily trends and Metrics from the below metrics (Use Parameters).
+- **Format**: As per your choice.
+- **Number should match**.
+
+## View 6: Mins taken on an average for a Delivery or Pick up depending on the selection
+Build a simple text chart showing minutes taken on average for either pickup or delivery.
+- If the value is less than or equal to 15.5 then format minutes to green.
+- If greater, format to red.
+- **Number should match**.
+
+## View 7: Mins taken on an average for a Delivery or Pick up depending on the selection
+Build the below view showing the average minutes breakdown by weekday.
+- Use red-green diverging with Step size 7.
+- If the value is greater than 15 then shades should be running towards red.
+- If less, they should be running towards green.
+- If 15, they should be running towards grey.
+- Time should be formatted as shown in the AM/PM format. (Hint: Use the calculated field to get the hour and concatenate with the string field or any other approach you can think of).
+
