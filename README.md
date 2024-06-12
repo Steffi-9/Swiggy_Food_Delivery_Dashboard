@@ -51,11 +51,17 @@ Build an Area chart showing the Daily trends and Metrics from the below metrics 
 - **Format**: As per your choice.
 - **Number should match**.
 
+![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/424a2e16-29ee-483c-bf4f-e3653f20edf0)
+
+
 ## View 6: Mins taken on an average for a Delivery or Pick up depending on the selection
 Build a simple text chart showing minutes taken on average for either pickup or delivery.
 - If the value is less than or equal to 15.5 then format minutes to green.
 - If greater, format to red.
 - **Number should match**.
+
+![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/c98e4f2b-bcdf-46a2-9fb5-19a6dde261b6)
+
 
 ## View 7: Mins taken on an average for a Delivery or Pick up depending on the selection
 Build the below view showing the average minutes breakdown by weekday.
@@ -64,4 +70,7 @@ Build the below view showing the average minutes breakdown by weekday.
 - If less, they should be running towards green.
 - If 15, they should be running towards grey.
 - Time should be formatted as shown in the AM/PM format. (Hint: Use the calculated field to get the hour and concatenate with the string field or any other approach you can think of).
+
+![image](https://github.com/Steffi-9/Swiggy_Food_Delivery_Dashboard/assets/58806839/4785ca7f-5dc4-4e44-a90d-e4e81f9d70d8)
+
 
